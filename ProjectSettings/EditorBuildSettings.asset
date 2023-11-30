@@ -22,6 +22,10 @@ EditorBuildSettings:
       type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: feef587f0ac641c4ab7d9e44e7eea888,
       type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: c18c83661dbf21645b53416b97c43c2a,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 3f26fad9a59fdbc4a841e1edf2fe4f11,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 07092d12b03adbd49b1ade5f5742e72e,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f1ebaba0fe484c1469e1bc54ab8d82e1,

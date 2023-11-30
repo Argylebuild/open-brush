@@ -621,4 +621,5 @@ QualitySettings:
   m_TextureMipmapLimitGroupNames: []
   m_PerPlatformDefaultQuality:
     Android: 11
+    Server: 0
     Standalone: 2

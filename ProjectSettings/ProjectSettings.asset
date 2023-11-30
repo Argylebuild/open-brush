@@ -50,7 +50,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 1024
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_ActiveColorSpace: 1
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
   mipStripping: 0
@@ -138,9 +138,13 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 2.0.0
   preloadedAssets:
-  - {fileID: 11400000, guid: 62987a061b20ae345a45e835010db90d, type: 2}
   - {fileID: 0}
-  - {fileID: 11400000, guid: 71fe6cc6ea2fd8841ab44d5442834cc6, type: 2}
+  - {fileID: 11400000, guid: feef587f0ac641c4ab7d9e44e7eea888, type: 2}
+  - {fileID: 11400000, guid: 62987a061b20ae345a45e835010db90d, type: 2}
+  - {fileID: 11400000, guid: 3f26fad9a59fdbc4a841e1edf2fe4f11, type: 2}
+  - {fileID: -5428386068462531570, guid: 07092d12b03adbd49b1ade5f5742e72e, type: 2}
+  - {fileID: -1294329756112899549, guid: f1ebaba0fe484c1469e1bc54ab8d82e1, type: 2}
+  - {fileID: 11400000, guid: c18c83661dbf21645b53416b97c43c2a, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -255,7 +259,7 @@ PlayerSettings:
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
-  useCustomMainManifest: 0
+  useCustomMainManifest: 1
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0
@@ -263,7 +267,7 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 2
+  AndroidTargetArchitectures: 8
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -617,7 +621,7 @@ PlayerSettings:
   m_BuildTargetNormalMapEncoding: []
   m_BuildTargetDefaultTextureCompressionFormat:
   - m_BuildTarget: Android
-    m_Format: 3
+    m_Format: 7
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -877,9 +881,20 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: TILT_BRUSH
-    Standalone: USD_SUPPORTED;UNITY_HAS_GOOGLEVR;TILT_BRUSH;FBX_SUPPORTED;FBXSDK_RUNTIME;LATK_SUPPORTED
-    Windows Store Apps: USD_SUPPORTED;UNITY_HAS_GOOGLEVR;TILT_BRUSH
+    Android: TILT_BRUSH;MAGICLEAP;USE_INPUT_SYSTEM_POSE_CONTROL
+    EmbeddedLinux: MAGICLEAP
+    GameCoreXboxOne: MAGICLEAP
+    Nintendo Switch: MAGICLEAP
+    PS4: MAGICLEAP
+    PS5: MAGICLEAP
+    QNX: MAGICLEAP
+    Stadia: MAGICLEAP
+    Standalone: USD_SUPPORTED;UNITY_HAS_GOOGLEVR;TILT_BRUSH;FBX_SUPPORTED;FBXSDK_RUNTIME;LATK_SUPPORTED;MAGICLEAP;USE_INPUT_SYSTEM_POSE_CONTROL
+    VisionOS: MAGICLEAP
+    WebGL: MAGICLEAP
+    Windows Store Apps: USD_SUPPORTED;UNITY_HAS_GOOGLEVR;TILT_BRUSH;USE_INPUT_SYSTEM_POSE_CONTROL
+    XboxOne: MAGICLEAP
+    tvOS: MAGICLEAP
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
